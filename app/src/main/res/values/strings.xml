@@ -1,0 +1,123 @@
+<resources>
+    <string name="app_name">Magnífica Shop</string>
+    <string name="slogan">Você magnífica em todas as situações.</string>
+    <string name="login">Entrar com o Google</string>
+    <string name="visitante">Navegar como visitante</string>
+    <string name="preco">R$34,99</string>
+    <string name="help">"Adicione itens aqui e arraste para a esquerda para excluí-los, toque e segure para reordená-los."</string>
+    <string name="share">"Confira essa roupa, que legal! Comprei na Magnífica Shop. Visite o nosso Instagram (https://www.instagram.com/mag_tshirt22/) ou baixe o aplicativo (https://play.google.com/store/apps/details?id=com.flavio.magnfica)."</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="shortcut_loja">Loja</string>
+    <string name="shortcut_cart">Sacola</string>
+    <string name="shortcut_fav">Favoritos</string>
+    <!-- Checkout activity -->
+    <string name="title_activity_checkout">CheckoutActivity</string>
+    <string name="checkout_item_size">Tamanho selecionado</string>
+    <string name="googlepay_status_unavailable" translatable="false">Unfortunately, Google Pay is
+        not available on this phone.
+    </string>
+    <string name="payments_show_name" translatable="false">Successfully received payment data for
+        %s!
+    </string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="default_notification_channel_id">CHANNEL_NOTIFICATIONS</string>
+    <string name="shortcut_user">Perfil</string>
+    <string name="shortcut_ped">Pedidos</string>
+    <string name="title_dynamicapp">Magnífica Shop</string>
+    <string name="title_instantapp">Magnífica Shop</string>
+    <string name="title_magnifica">Magnífica Shop</string>
+    <string name="back_button">back button</string>
+    <string name="app_title">MAGNÍFICA</string>
+    <string name="bot_o_de_ajuda">Botão de ajuda</string>
+    <string name="imagem_de_fundo">Imagem de fundo</string>
+    <string name="imagem_de_confirma_o">Imagem de confirmação</string>
+    <string name="pedido_realizado">Pedido Realizado!</string>
+    <string name="como_retirar_o_pedido">Como retirar o pedido?</string>
+    <string name="voltar_a_tela_inicial">Voltar a tela inicial</string>
+    <string name="detalhes_do_pedido">Detalhes do pedido</string>
+    <string name="m_todo_de_entrega">Método de entrega:</string>
+    <string name="retirar_na_loja">Retirar na loja</string>
+    <string name="entregar_em_casa_r_2_50_de_frete">Entregar em casa (+R$2,50 de frete)</string>
+    <string name="endere_o_de_entrega">Endereço de entrega:</string>
+    <string name="adicionar_endere_o">+ Adicionar endereço</string>
+    <string name="m_todo_de_pagamento">Método de pagamento:</string>
+    <string name="pagar_com_cart_o">Pagar com cartão</string>
+    <string name="pagar_com_dinheiro">Pagar com dinheiro</string>
+    <string name="fazer_pedido">Fazer pedido</string>
+    <string name="suas_informa_es">Suas informações</string>
+    <string name="n_mero">Número</string>
+    <string name="complemento">Complemento</string>
+    <string name="endere_o">Endereço</string>
+    <string name="telefone">Telefone</string>
+    <string name="nome">Nome</string>
+    <string name="bairro">Bairro</string>
+    <string name="brumado_ba">Brumado/BA</string>
+    <string name="salvar">Salvar Dados</string>
+    <string name="quantidade_m">Quantidade M</string>
+    <string name="quantidade_g">Quantidade G</string>
+    <string name="quantidade_gg">Quantidade GG</string>
+    <string name="referencia">Referencia</string>
+    <string name="blusas_n_webp">blusas/n.webp</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="gerenciar_pedidos">Gerenciar pedidos</string>
+    <string name="descri_o">Descrição</string>
+    <string name="titulo_da_blusa">Titulo da blusa</string>
+    <string name="bot_o_recolher_expandir">Botão recolher/expandir</string>
+    <string name="adicionar_blusa">Adicionar blusa</string>
+    <string name="p">P</string>
+    <string name="m">M</string>
+    <string name="g">G</string>
+    <string name="gg">GG</string>
+    <string name="quantidade_p">Quantidade P</string>
+    <string name="instale_o_app">Instale o app</string>
+    <string name="compre_um_item_e_ele_aparecer_aqui">Compre um item e ele aparecerá aqui.</string>
+    <string name="suas_compras">Suas compras</string>
+    <string name="nome_da_roupa">Nome da Roupa</string>
+    <string name="comprar_agora">Comprar agora</string>
+    <string name="produtos_semelhantes">Você também pode gostar…</string>
+    <string name="imagem_do_produto">Imagem do produto</string>
+    <string name="suas_compras_config">Suas compras</string>
+    <string name="ver_pedidos">Ver pedidos</string>
+    <string name="seus_dados">Seus dados</string>
+    <string name="alterar_dados">Alterar dados</string>
+    <string name="esvaziar_sacola_e_favoritos">Esvaziar sacola e favoritos</string>
+    <string name="nossa_loja">Nossa loja</string>
+    <string name="entrar_em_contato">Entrar em contato</string>
+    <string name="enviar_coment_rios">Enviar comentários…</string>
+    <string name="como_retirar_os_pedidos">Como retirar os pedidos?</string>
+    <string name="sua_conta">Sua conta</string>
+    <string name="excluir_conta">Excluir conta</string>
+    <string name="sair">Sair</string>
+    <string name="adicione_um_item_sacola_e_ele_aparecer_aqui">Adicione um item à sacola e ele aparecerá aqui.</string>
+    <string name="finalizar_compra">Finalizar compra</string>
+    <string name="esvaziar_sacola">Esvaziar sacola</string>
+    <string name="adicione_um_favorito_e_ele_aparecer_aqui">Adicione um favorito e ele aparecerá aqui.</string>
+    <string name="cancelar_pedido">Cancelar Pedido</string>
+    <string name="marcar_como_entregue">Marcar como entregue</string>
+    <string name="pagamento">Pagamento</string>
+    <string name="entrega">entrega</string>
+    <string name="bot_o_adicionar">botão adicionar</string>
+    <string name="bot_o_remover">botão remover</string>
+    <string name="em_estoque">Em estoque:</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="selecione_a_quantidade">Selecione a quantidade:</string>
+    <string name="escolha_o_tamanho">Escolha o tamanho:</string>
+    <string name="bot_o_compartilhar">botão compartilhar</string>
+    <string name="bot_o_curtir">botão curtir</string>
+    <string name="adicionar_sacola">Adicionar à sacola</string>
+    <string name="total">Total:</string>
+    <string name="shortcut_long_loja">Ver Loja</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>

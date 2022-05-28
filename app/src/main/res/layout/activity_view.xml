@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    style="@style/Theme.Magnífica.DayNight.Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:fitsSystemWindows="true"
+    app:layoutDescription="@xml/activity_view_xml_constraintlayout_scene">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewInView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:nestedScrollingEnabled="true"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textOutros"
+
+        app:spanCount="2"
+        tools:itemCount="6"
+        tools:listitem="@layout/item_shop" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/realtimeBlurView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@id/l1"
+        app:layout_constraintTop_toTopOf="@id/l1">
+
+        <com.github.mmin18.widget.RealtimeBlurView
+            android:id="@+id/blur_v"
+            style="@style/Theme.Magnífica.DayNight.BlurView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="@id/l1"
+            app:layout_constraintTop_toTopOf="@id/l1"
+            app:realtimeBlurRadius="55dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="6dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/textOutros"
+        app:layout_constraintTop_toBottomOf="@id/imageMain">
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="16dp"
+            android:paddingTop="16dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="0dp"
+                android:lines="1"
+                android:ellipsize="marquee"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:textSize="32sp"
+                app:layout_constraintEnd_toStartOf="@+id/buttonShare"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageMain"
+                tools:text="Nome da Roupa" />
+
+            <ImageButton
+                android:id="@+id/buttonShare"
+                style="@style/Theme.Magnífica.DayNight.Icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/bot_o_compartilhar"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/share" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:maxLines="2"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:textSize="18sp"
+            tools:text="Uma breve descrição da roupa vai aqui, como, por exemplo, a sua composição." />
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingStart="16dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/textPreco"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:text="@string/preco"
+                android:textSize="32sp" />
+
+            <ImageButton
+                android:id="@+id/buttonFav"
+                style="@style/Theme.Magnífica.DayNight.Icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="@string/bot_o_curtir"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/heart" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttons_l"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textPreco">
+
+            <Button
+                android:id="@+id/buttonShop"
+                style="@style/Theme.Magnífica.DayNight.FButton"
+                android:layout_width="153dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="2dp"
+                android:layout_weight="1"
+                android:text="@string/comprar_agora"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                app:layout_constraintTop_toBottomOf="@+id/textPreco" />
+
+            <Button
+                android:id="@+id/buttonAddToCart"
+                style="@style/Theme.Magnífica.DayNight.TButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_weight="2"
+                android:text="@string/adicionar_sacola"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textOutros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:paddingStart="16dp"
+        android:paddingTop="12dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="12dp"
+        android:text="@string/produtos_semelhantes"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/realtimeBlurView2" />
+
+    <ProgressBar
+        android:id="@+id/progress_view"
+        style="@style/Theme.Magnífica.DayNight.Progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateBehavior="cycle"
+        app:layout_constraintBottom_toBottomOf="@id/imageMain"
+        app:layout_constraintEnd_toEndOf="@id/imageMain"
+        app:layout_constraintStart_toStartOf="@id/imageMain"
+        app:layout_constraintTop_toTopOf="@id/imageMain" />
+
+    <ImageView
+        android:id="@+id/imageMain"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="-20dp"
+        android:contentDescription="@string/imagem_do_produto"
+        android:scaleType="centerCrop"
+        android:transitionName="photo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageBack"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/back_button"
+        android:rotation="-180"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_right" />
+
+    <FrameLayout
+        android:id="@+id/view_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

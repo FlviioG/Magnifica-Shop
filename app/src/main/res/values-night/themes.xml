@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Magnífica.DayNight" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_2</item>
+        <item name="colorPrimaryVariant">@color/color_2</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_2</item>
+        <item name="colorSecondaryVariant">@color/color_2</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@color/color_5</item>
+        <item name="android:navigationBarColor">@color/color_7</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- optional -->
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

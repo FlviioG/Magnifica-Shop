@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "782307490556",
+    "project_id": "magnifica-app",
+    "storage_bucket": "magnifica-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782307490556:android:48c6486b14740b5e403579",
+        "android_client_info": {
+          "package_name": "com.flavio.magnfica"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782307490556-a8vijvjg8mihf369c07qdfl22mopdjfu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flavio.magnfica",
+            "certificate_hash": "1e19e4e4f9640338625ee66cb0597a30d314a1e6"
+          }
+        },
+        {
+          "client_id": "782307490556-gii25ahh70bt619fo4sb78cclbadtchv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flavio.magnfica",
+            "certificate_hash": "69ca7b4cb62c6be92a48262c6b520f36b6bf4163"
+          }
+        },
+        {
+          "client_id": "782307490556-paucqomcegamj1g12fcl96t6b99kj6tp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flavio.magnfica",
+            "certificate_hash": "13862b8e9a77d4d05567cf94d38d005e3fb6a046"
+          }
+        },
+        {
+          "client_id": "782307490556-t7dl824uqm3dto9ptlbmu4rae8auvhgm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpxh8FbWFkPLU3Z5rOpN3Pc2oYtAJp254"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782307490556-t7dl824uqm3dto9ptlbmu4rae8auvhgm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,52 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <capability android:name="actions.intent.OPEN_APP_FEATURE">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.flavio.magnfica.ui.activities.MainActivity"
+            android:targetPackage="com.flavio.magnfica" />
+    </capability>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/home_full"
+        android:shortcutId="loja"
+        android:shortcutLongLabel="@string/shortcut_long_loja"
+        android:shortcutShortLabel="@string/shortcut_loja">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.flavio.magnfica.ui.activities.MainActivity"
+            android:targetPackage="com.flavio.magnfica" />
+        <capability-binding android:key="actions.intent.OPEN_APP_FEATURE" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/heart_full"
+        android:shortcutId="favoritos"
+        android:shortcutShortLabel="@string/shortcut_fav">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.flavio.magnfica.ui.activities.MainActivity"
+            android:targetPackage="com.flavio.magnfica">
+            <extra
+                android:name="dest"
+                android:value="fav" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/shopping_bag_full"
+        android:shortcutId="acola"
+        android:shortcutShortLabel="@string/shortcut_cart">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetClass="com.flavio.magnfica.ui.activities.MainActivity"
+            android:targetPackage="com.flavio.magnfica">
+            <extra
+                android:name="dest"
+                android:value="cart" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

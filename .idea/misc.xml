@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable-v21/color_selector_night.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable-v21/googlepay_button_background.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/account_selector.xml" value="0.206" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/bag_selector.xml" value="0.206" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/color_selector.xml" value="0.1695" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/fade.xml" value="0.175" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/googlepay_button_background.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/heart_full.xml" value="0.121" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/home_full.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/home_selector.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/ic_check_circle.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.206" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/shopping-bag_full.xml" value="0.1955" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/shopping_bag_full.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/drawable/user_full.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_admin.xml" value="0.3203677510608204" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_adress.xml" value="0.5228758169934641" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_checkout.xml" value="0.34203655352480417" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_complete.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_favorites.xml" value="0.16799999999999998" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_login.xml" value="0.1902497027348395" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_main.xml" value="0.3125778331257783" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_main_instant.xml" value="0.10731081658828559" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_pedidos.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_shop.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_splash.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_view.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/activity_view_instant.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/buy_with_googlepay_button.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/cart_item.xml" value="0.2381359555365541" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/fav.xml" value="0.72" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/fav_item.xml" value="0.2381359555365541" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/favorites_widget.xml" value="0.2850356294536817" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/fragment_account.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/fragment_cart.xml" value="0.3271604938271605" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/fragment_favorites.xml" value="0.1902497027348395" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/fragment_shop.xml" value="0.176" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/fragment_toolbar.xml" value="0.27898550724637683" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/item.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/item_admin.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/item_cart.xml" value="0.23512030392570704" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/item_checkout.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/item_fav.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/item_pedido.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/item_shop.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/menu_cart.xml" value="0.4" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/layout/menu_list.xml" value="0.20436083796494228" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/menu/menu_list.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.113" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/app/src/main/res/xml/root_preferences.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/instantApp/src/main/res/layout/activity_login.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/instantApp/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/instantApp/src/main/res/layout/activity_main_instant.xml" value="0.10731081658828559" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/instantApp/src/main/res/layout/activity_view.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/instantApp/src/main/res/layout/item_fav.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/instantApp/src/main/res/layout/item_shop.xml" value="0.20521590423257802" />
+        <entry key="..\:/AndroidStudioProjects/Magnfica/instantApp/src/main/res/menu/menu_list.xml" value="0.20521590423257802" />
+        <entry key="..\:/Arquivos de Programas/Android/Sdk/platforms/android-32/data/res/layout/activity_list_item.xml" value="0.10816588285592134" />
+        <entry key="..\:/Arquivos de Programas/Android/Sdk/platforms/android-32/data/res/layout/simple_spinner_dropdown_item.xml" value="0.10816588285592134" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_shop.xml" value="0.29243266353142366" />
+        <entry key="app/src/main/res/layout/activity_view.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/item.xml" value="0.14920906370243694" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

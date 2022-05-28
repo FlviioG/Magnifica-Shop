@@ -1,0 +1,37 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Magnífica.DayNight" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_1</item>
+        <item name="colorPrimaryVariant">@color/color_1</item>
+        <item name="colorOnPrimary">@color/color_1</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_1</item>
+        <item name="colorSecondaryVariant">@color/color_1</item>
+        <item name="colorOnSecondary">@color/color_1</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/color_3</item>
+        <item name="android:navigationBarColor">@color/color_3</item>
+        <item name="fontFamily">@font/abhaya_libre</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- optional -->
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true
+        </item>   <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <!-- Radius of the outer bound of widgets to make the rounded corners -->
+        <item name="appWidgetRadius">16dp</item>
+        <!--
+        Radius of the inner view's bound of widgets to make the rounded corners.
+        It needs to be 8dp or less than the value of appWidgetRadius
+        -->
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.AppWidgetContainer" parent="Theme.Magnífica.DayNight.AppWidgetContainerParent">
+        <!-- Apply padding to avoid the content of the widget colliding with the rounded corners -->
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>

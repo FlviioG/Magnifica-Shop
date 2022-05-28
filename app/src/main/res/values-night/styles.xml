@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  >
+    <style name="Theme.Magnífica.DayNight.BN" parent="Widget.Material3.BottomNavigationView">
+    <item name="android:color">@color/color_1</item>
+    <item name="itemActiveIndicatorStyle">@style/Theme.Magnífica.DayNight.BNS</item>
+    <item name="android:background">@android:color/transparent</item>
+    <item name="itemIconTint">@drawable/color_selector_night</item>
+</style>
+
+    <style name="Theme.Magnífica.DayNight.Background" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/color_5</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.CardView" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="cardBackgroundColor">@color/color_7</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.OnView" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/color_4</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.BlurView" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="realtimeOverlayColor">@color/color_4</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.Icon" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="tint">@color/color_1</item>
+        <item name="android:backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.TButton" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@android:color/transparent</item>
+        <item name="strokeColor">@color/color_2</item>
+        <item name="strokeWidth">@dimen/m3_btn_stroke_size</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.Progress" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:indeterminateTint">@color/color_1</item>
+        <item name="android:progressTint">@color/color_1</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.FButton" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint">@color/color_1</item>
+        <item name="iconTint">@color/white</item>
+    </style>
+
+    <style name="Theme.Magnífica.DayNight.View" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@color/color_1</item>
+    </style>
+</resources>
